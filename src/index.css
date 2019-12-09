@@ -137,3 +137,95 @@ h2 {
 }
 
 /* menu-section */
+.menu-section-row {
+  margin: 100px 70px 0 70px;
+}
+.menu-section {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 500px;
+  grid-gap: 30px;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 250px 250px;
+}
+
+.gallery-image-1 {
+  background: url('./components/menuComponent/gallery-1s.jpg') no-repeat;
+  background-size: cover;
+}
+.gallery-image-2 {
+  background: url('./components/menuComponent/gallery-2s.jpg') no-repeat;
+  background-size: cover;
+}
+.gallery-image-3 {
+  background: url('components/menuComponent/gallery-3s.jpg') no-repeat;
+  background-size: cover;
+}
+.gallery-image-4 {
+  background: url('components/menuComponent/gallery-4s.jpg') no-repeat;
+  background-size: cover;
+}
+.menu-style-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 110px);
+}
+.menu-style-grid li {
+  display: flex;
+  align-items: center;
+}
+
+.menu-style-grid li:first-child {
+  display: block !important;
+}
+.menu-style-grid li img {
+  padding: 0;
+  width: 90px;
+  height: 90px;
+  margin-right: 20px;
+}
+.menu-style-grid .header h4:first-child {
+  color: #b48c80;
+  font-size: 36px;
+  font-family: 'Montez', cursive;
+  padding-top: 5px;
+  line-height: 25px;
+  text-transform: none;
+}
+.menu-style-grid .header h4 {
+  font-family: 'Suranna', serif;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 35px;
+  line-height: 44px;
+  margin-bottom: 15px;
+}
+.menu-style-grid h5 {
+  color: #161d27;
+  font-family: 'Montserrat', Ariel, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 3px;
+  text-transform: uppercase;
+}
+.menu-style-grid span.price {
+  color: #b48c80;
+  font-family: 'Montez', cursive;
+  font-size: 36px;
+  padding-left: 50px;
+}
+.menu-style-grid p {
+  width: 320px;
+  font-size: 14px;
+  font-weight: 550;
+  line-height: 22px;
+  padding-bottom: 15px;
+  color: #777;
+  font-family: 'Montserrat', Ariel, sans-serif;
+}

@@ -4,7 +4,7 @@ import './index.css';
 import './components/headerComponent/logo.png';
 import './components/heroComponent/bkg-img4.jpg';
 import './components/menuComponent/gallery-1s.jpg';
-import './components/menuComponent/gallet-2s.jpg';
+import './components/menuComponent/gallery-2s.jpg';
 import './components/menuComponent/gallery-3s.jpg';
 import './components/menuComponent/gallery-4s.jpg';
 
