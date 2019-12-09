@@ -46,3 +46,4 @@ for (var i = 0; i < 8; i++) {
 }
 
 console.log(document.body);
+console.log(document.head);

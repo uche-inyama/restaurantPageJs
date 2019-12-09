@@ -4,7 +4,7 @@
 @import url('https://use.fontawesome.com/releases/v5.0.9/css/all.css');
 
 .row-1 {
-  height: 25vh;
+  height: 10vh;
 }
 .navbar-expand-lg {
   height: 100%;
@@ -28,8 +28,8 @@
 }
 
 img {
-  width: 120px;
-  height: 70px;
+  width: 110px;
+  height: 60px;
   padding: 10px 0 0 30px;
 }
 .navbar-collapse {
@@ -40,4 +40,98 @@ ul li {
   list-style: none;
   text-decoration: none;
   color: #fff;
+}
+
+/* hero-section */
+
+.imgWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url('./components/heroComponent/bkg-img4.jpg') no-repeat;
+  height: 100vh;
+}
+
+.hero-section h2 {
+  font-family: 'Suranna', serif;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 44px;
+  line-height: 44px;
+  margin-bottom: 15px;
+}
+.hero-section h4 {
+  font-family: 'Montez', cursive;
+  color: #fcda9a;
+  font-size: 50px;
+  height: 60px;
+  text-align: center;
+  line-height: 25px;
+}
+
+/* Blog Section */
+
+.ourStory-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+.spices-left-wrapper,
+.spices-right-wrapper {
+  width: 270px;
+  height: 553px;
+  padding-top: 150px;
+}
+.spices-left-wrapper > img,
+.spices-right-wrapper > img {
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+.potrariat {
+  background: url('./components/ourStoryComponent/bkg-img2.png') no-repeat;
+  background-position: 80% 50%;
+  width: auto;
+  height: 100%;
+  border: solid #000 17px;
+}
+
+.potriat-wrapper {
+  width: 550px;
+  height: 800px;
+  padding: 100px 0 0 0;
+}
+.blog {
+  padding: 150px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.blog h4,
+h2 {
+  margin-bottom: 20px;
+}
+.blog h4 {
+  font-size: 36px;
+  font-family: 'Montez', cursive;
+  text-transform: none;
+  line-height: 25px;
+  color: #b48c80;
+}
+.blog h2 {
+  font-size: 36px;
+  line-height: 36px;
+  color: #161d27;
+  text-transform: uppercase;
+  font-family: 'suranna', serif;
+}
+.blog p {
+  color: #777;
+  text-align: center;
+  font-family: 'Montserrat', Ariel, sans-serif;
+  line-height: 25px;
+  text-align: center;
+  height: 300px;
+  padding: 0 80px;
 }
