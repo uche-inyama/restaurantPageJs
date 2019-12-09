@@ -1,3 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Cedarville+Cursive|Montez&display=swap);
+@import url(https://fonts.googleapis.com/css?family=PT+Serif|Suranna&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:200&display=swap);
+@import url(https://use.fontawesome.com/releases/v5.0.9/css/all.css);
 html,
 body,
 div,
@@ -134,7 +138,42 @@ table {
   box-sizing: border-box;
 }
 
-body {
-  background-color: red;
+.row-1 {
+  height: 25vh;
+}
+.navbar-expand-lg {
+  height: 100%;
+  width: 100%;
+}
+
+.container-navigation {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.navbar-brand {
+  width: 25%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 120px;
+  height: 70px;
+  padding: 10px 0 0 30px;
+}
+.navbar-collapse {
+  width: 70%;
+}
+
+ul li {
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
 }
 

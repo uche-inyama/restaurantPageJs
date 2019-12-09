@@ -93,7 +93,30 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("let linkElement1 = document.createElement('link');\nlinkElement1.setAttribute('rel', 'stylesheet');\nlinkElement1.setAttribute('type', 'text/css');\nlinkElement1.setAttribute('id', 'linkElement');\nlinkElement1.setAttribute('href', './main.css');\n\nconsole.log(document.head);\nconsole.log(document.head.appendChild(linkElement1));\n\n\n//# sourceURL=webpack:///./src/components/externalStyleSheet.js?");
+eval("let linkElement1 = document.createElement('link');\nlinkElement1.setAttribute('rel', 'stylesheet');\nlinkElement1.setAttribute('type', 'text/css');\nlinkElement1.setAttribute('id', 'linkElement');\nlinkElement1.setAttribute('href', './main.css');\n\ndocument.head.appendChild(linkElement1);\n\n\n//# sourceURL=webpack:///./src/components/externalStyleSheet.js?");
+
+/***/ }),
+
+/***/ "./src/components/headerComponent/logo.png":
+/*!*************************************************!*\
+  !*** ./src/components/headerComponent/logo.png ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"49ed8e440a7d54ca9672edaa6c636d6e.png\");\n\n//# sourceURL=webpack:///./src/components/headerComponent/logo.png?");
+
+/***/ }),
+
+/***/ "./src/components/headerComponent/nav.js":
+/*!***********************************************!*\
+  !*** ./src/components/headerComponent/nav.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("const content = document.querySelector('#content');\nconst row = document.createElement('div');\nconst nav = document.createElement('nav');\nconst navContainer = document.createElement('div');\nconst navBrand = document.createElement('a');\nconst navbarCollapse = document.createElement('div');\nconst navbarNav = document.createElement('ul');\nconst navLink = document.createElement('li');\nconst imageTag = document.createElement('img');\n\nrow.setAttribute('class', 'row row-1');\nnav.setAttribute('class', 'nav navbar-expand-lg');\nnavContainer.setAttribute('class', 'container-navigation');\nnavBrand.setAttribute('class', 'navbar-brand');\nnavbarCollapse.setAttribute('class', 'collapse navbar-collapse');\nnavbarNav.setAttribute('class', 'navbar-nav mr-auto navigation');\nimageTag.setAttribute('alt', 'logo');\nimageTag.setAttribute('src', './49ed8e440a7d54ca9672edaa6c636d6e.png');\nnavLink.setAttribute('class', 'nav-Link');\n\ncontent.append(row);\nrow.appendChild(nav);\nnav.appendChild(navContainer);\nnavContainer.appendChild(navBrand);\nnavContainer.appendChild(navbarCollapse);\nnavBrand.appendChild(imageTag);\nnavbarCollapse.appendChild(navbarNav);\n\nconst navList = [\n  'HOME',\n  'ABOUT',\n  'MENU',\n  'RESERVATION',\n  'CATERING',\n  'GALLERY',\n  'BLOG',\n  'CONTACT'\n];\n\nfor (var i = 0; i < 8; i++) {\n  const navLink = document.createElement('li');\n  navbarNav.appendChild(navLink);\n  navLink.setAttribute('class', 'nav-Link');\n  navLink.setAttribute('href', '#');\n  navLink.innerHTML = navList[i];\n}\n\nconsole.log(document.body);\n\n\n//# sourceURL=webpack:///./src/components/headerComponent/nav.js?");
 
 /***/ }),
 
@@ -116,7 +139,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_externalStyleSheet_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/externalStyleSheet.js */ \"./src/components/externalStyleSheet.js\");\n/* harmony import */ var _components_externalStyleSheet_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_components_externalStyleSheet_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _reset_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./reset.css */ \"./src/reset.css\");\n/* harmony import */ var _reset_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_reset_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_externalStyleSheet_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/externalStyleSheet.js */ \"./src/components/externalStyleSheet.js\");\n/* harmony import */ var _components_externalStyleSheet_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_components_externalStyleSheet_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _reset_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./reset.css */ \"./src/reset.css\");\n/* harmony import */ var _reset_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_reset_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _components_headerComponent_nav_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/headerComponent/nav.js */ \"./src/components/headerComponent/nav.js\");\n/* harmony import */ var _components_headerComponent_nav_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_components_headerComponent_nav_js__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _components_headerComponent_logo_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/headerComponent/logo.png */ \"./src/components/headerComponent/logo.png\");\n\n\n\n\n\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
