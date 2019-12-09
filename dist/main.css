@@ -184,7 +184,7 @@ ul li {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: url(./9a299156ebde9dde77ff6429a5d31b56.jpg) no-repeat;
+  background: url(../9a299156ebde9dde77ff6429a5d31b56.jpg) no-repeat;
   height: 100vh;
 }
 
@@ -224,7 +224,7 @@ ul li {
   padding: 0;
 }
 .potrariat {
-  background: url(./ec1df8df5f622d411b44e679c142683d.png) no-repeat;
+  background: url(../ec1df8df5f622d411b44e679c142683d.png) no-repeat;
   background-position: 80% 50%;
   width: auto;
   height: 100%;
@@ -270,3 +270,6 @@ h2 {
   height: 300px;
   padding: 0 80px;
 }
+
+/* menu-section */
+
