@@ -57,11 +57,14 @@ mozzarella, coffe or tea.`,
   `Grilled Beaf steak, roasted red potatos with rosemary,
 mashrooms sause, vine.`
 ];
+
+const price = [15, 22, 28];
 for (let i = 0; i < images.length; i++) {
   galleryImage2 = document.createElement('li');
   span1 = document.createElement('span');
   span2 = document.createElement('span');
   span2.setAttribute('class', 'price');
+  span2.innerHTML = `$${price[i]}`;
   header5 = document.createElement('h5');
   header5.innerHTML = headers5[i];
   paragraph = document.createElement('p');

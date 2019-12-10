@@ -12,3 +12,5 @@ import './components/headerComponent/nav.js';
 import './components/heroComponent/hero.js';
 import './components/ourStoryComponent/ourStory.js';
 import './components/menuComponent/menu.js';
+import './components/cateringServicesComponent/cateringService.js';
+import './components/reservationComponent/reservation.js';

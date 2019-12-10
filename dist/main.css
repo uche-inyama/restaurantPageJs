@@ -364,3 +364,163 @@ h2 {
   color: #777;
   font-family: 'Montserrat', Ariel, sans-serif;
 }
+
+/* Catering services */
+.catering-services {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 550px;
+  grid-gap: 50px;
+  padding: 100px 70px 0 70px;
+}
+.socialEventsImage {
+  background: url(./440fbbbf6ecf53a1d84ae812f4623e84.jpg) no-repeat;
+}
+.cateringWriteUp {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cateringWriteUp > h4 {
+  color: #b48c80;
+  font-size: 36px;
+  font-family: 'Montez', cursive;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+.cateringWriteUp h5.socialEvents {
+  font-family: 'Suranna', serif;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 35px;
+  line-height: 44px;
+  margin-bottom: 15px;
+}
+.categories {
+  display: flex;
+  justify-content: center;
+  list-style: circle;
+  padding: 0 20px;
+}
+.categories li {
+  margin-right: 50px;
+  font-size: 14px;
+  font-weight: 550;
+  line-height: 22px;
+  color: #777;
+  font-family: 'Montserrat', Ariel, sans-serif;
+}
+.cateringWriteUp p {
+  color: #777;
+  font-size: 14px;
+  font-weight: 550;
+  line-height: 22px;
+  padding: 15px 30px;
+  font-family: 'Montserrat', Ariel, sans-serif;
+}
+.cateringWriteUp h6 {
+  font-family: 'Suranna', serif;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 20px;
+  line-height: 44px;
+}
+
+/* Reservation & Booking */
+.reservationBooking {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 550px;
+  grid-gap: 50px;
+  padding: 50px 70px 20px 70px;
+}
+.reservationImage1 {
+  background: url(./2927623cc35f03f2f286532c802db6fa.jpg) no-repeat;
+}
+.reservationImage2 {
+  background: url(./741ddcab5304315cbe7c29b53c34878d.jpg) no-repeat;
+}
+input {
+  width: 100%;
+  height: 40px;
+  padding-left: 40px;
+  font-size: inherit;
+  font-weight: 400;
+  color: #777;
+  border: 1px solid #ccc;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.formheader {
+  text-align: center;
+}
+.formheader h4 {
+  color: #b48c80;
+  font-size: 36px;
+  font-family: 'Montez', cursive;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+.formheader h3 {
+  font-family: 'Suranna', serif;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 40px;
+  line-height: 44px;
+}
+.input-wrap {
+  position: relative;
+  margin-bottom: 10px;
+  color: #777777;
+}
+.name-wrap:before,
+.email-wrap:before,
+.date-wrap:before,
+.time-wrap:before,
+.party-size-wrap:before {
+  position: absolute;
+  font-family: 'Font Awesome\ 5 Free';
+  font-size: 14px;
+  display: block;
+  top: 12px;
+  left: 18px;
+  z-index: 1;
+}
+.name-wrap:before {
+  content: '\f007';
+  color: #b48c80;
+  font-weight: 900;
+}
+.email-wrap:before {
+  content: '\f0e0';
+  color: #b48c80;
+  font-weight: 900;
+}
+.date-wrap:before {
+  content: '\f073';
+  color: #b48c80;
+  font-weight: 900;
+}
+.time-wrap:before {
+  content: '\f017';
+  color: #b48c80;
+  font-weight: 900;
+}
+
+.party-size-wrap:before {
+  content: '\f0c0';
+  color: #b48c80;
+  font-weight: 900;
+}
+.submit {
+  color: #fff;
+  background-color: #161d27;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
