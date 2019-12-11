@@ -15,10 +15,7 @@ module.exports = {
         test: /\.css$/,
         use: [
           {
-            loader: MiniCssExtractPlugin.loader,
-            options: {
-              publicPath: './'
-            }
+            loader: MiniCssExtractPlugin.loader
           },
           'css-loader'
         ]

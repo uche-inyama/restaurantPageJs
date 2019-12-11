@@ -15,3 +15,4 @@ import './components/menuComponent/menu.js';
 import './components/cateringServicesComponent/cateringService.js';
 import './components/reservationComponent/reservation.js';
 import './components/footerComponent/footer.js';
+import 'font-awesome/css/font-awesome.css';

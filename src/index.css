@@ -3,8 +3,16 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200&display=swap');
 @import url('https://use.fontawesome.com/releases/v5.0.9/css/all.css');
 
+#content {
+  position: relative;
+  z-index: 1;
+}
+
 .row-1 {
   height: 10vh;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
 }
 .navbar-expand-lg {
   height: 100%;
@@ -37,9 +45,12 @@ img {
 }
 
 ul li {
+  color: #fff;
   list-style: none;
   text-decoration: none;
-  color: #fff;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 /* hero-section */
@@ -387,4 +398,105 @@ input {
   font-family: 'Montserrat', Arial, sans-serif;
   font-size: 14px;
   text-transform: uppercase;
+}
+
+/* footer */
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 85%;
+}
+footer form {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  padding-right: 100px;
+}
+footer input:first-child {
+  margin-right: 10px;
+  background-color: #1d2026;
+  border: none;
+  font-family: Montserrat-UltraLight, Arial, sans-serif;
+  width: 265px;
+  line-height: 37px;
+  height: 40px;
+  padding-left: 20px;
+  font-size: 13px;
+  color: #acb8c4;
+}
+footer input:last-child {
+  background-color: #fcda9a;
+  color: #0b0e13;
+  font-family: 'Montserrat', Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+}
+footer .newsletter {
+  width: 300px;
+  height: 40px;
+  text-align: center;
+  padding-left: 0px;
+}
+footer .button {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  padding-left: 0px;
+}
+.footerNav {
+  align-items: center;
+  background-color: #161d27;
+  border-top: 0.05px solid #7f848a;
+  color: #7f848a;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Montserrat', Arial, sans-serif;
+  height: 50px;
+  text-align: center;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 30px;
+}
+.footerNav ul {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 200px;
+  width: 40%;
+}
+.socialMedia ul {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  padding-left: 100px;
+}
+.footer {
+  justify-content: center;
+  background-color: #161d27;
+  color: #fff;
+  height: 650px;
+}
+.socialMedia {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  background: url(./components/footerComponent/logo.png) no-repeat;
+  width: 200px;
+  height: 150px;
+}
+.center h5 {
+  color: #acb8c4;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 15px;
+  line-height: 23px;
+  margin: 2px 0;
+  text-transform: capitalize;
+}
+.center span {
+  color: #fcda9a;
 }

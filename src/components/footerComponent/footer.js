@@ -24,10 +24,30 @@ footer.append(container);
 container.append(footerDiv);
 footerDiv.append(center);
 center.append(logo);
+
+const header5Content = [
+  `22 royal street, sundance avenue, new york`,
+  ``,
+  ``,
+  `mon-fri: 08:00am - 10:00pm`,
+  `sat-sun: 10:00am - 11:00pm`
+];
+
 for (let i = 0; i < 5; i++) {
   const header5 = document.createElement('h5');
+  header5.innerHTML = header5Content[i];
+  header5.setAttribute('class', `head-${i}`);
   center.append(header5);
 }
+
+document.querySelector('.head-1').outerHTML =
+  '<h5><span>reservation number</span>: +00 25 854 78521</h5>';
+
+document.querySelector('.head-2').outerHTML =
+  '<h5><span>working hours</span></h5>';
+
+header6.innerHTML = '© Royal Plate 2016. All rights reserved.';
+
 footerDiv.append(socialMedia);
 socialMedia.append(unorderedList);
 
@@ -59,6 +79,11 @@ for (let i = 0; i < 2; i++) {
   input.setAttribute('class', `${inputType[i]}`);
 }
 
+document
+  .querySelector('.text')
+  .setAttribute('placeholder', 'Subscribe to our newsletter feed');
+
+document.querySelector('.button').setAttribute('value', 'submit');
 footerDiv.append(footerNav);
 footerNav.append(header6);
 footerNav.append(unorderedList1);
