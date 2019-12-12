@@ -8,7 +8,7 @@ const navbarNav = document.createElement('ul');
 const navLink = document.createElement('li');
 const imageTag = document.createElement('img');
 
-row.setAttribute('class', 'row row-1');
+row.setAttribute('class', ' row-1');
 nav.setAttribute('class', 'nav navbar-expand-lg');
 navContainer.setAttribute('class', 'container-navigation');
 navBrand.setAttribute('class', 'navbar-brand');
@@ -26,23 +26,25 @@ navContainer.appendChild(navbarCollapse);
 navBrand.appendChild(imageTag);
 navbarCollapse.appendChild(navbarNav);
 
-const navList = [
-  'HOME',
-  'ABOUT',
-  'MENU',
-  'RESERVATION',
-  'CATERING',
-  'GALLERY',
-  'BLOG',
-  'CONTACT'
-];
+const navList = ['HOME', 'ABOUT', 'MENU', 'RESERVATION', 'CATERING', 'CONTACT'];
 
-for (var i = 0; i < 8; i++) {
+const dataTarget = [
+  'home',
+  'about',
+  'menu',
+  'reservation',
+  'catering',
+  'contact'
+];
+for (var i = 0; i < navList.length; i++) {
   const navLink = document.createElement('li');
+  const linkTag = document.createElement('a');
   navbarNav.appendChild(navLink);
-  navLink.setAttribute('class', 'nav-Link');
-  navLink.setAttribute('href', '#');
-  navLink.innerHTML = navList[i];
+  navLink.append(linkTag);
+  linkTag.setAttribute('class', 'nav-Link');
+  linkTag.setAttribute('data-target', `${dataTarget[i]}`);
+  linkTag.setAttribute('href', '#');
+  linkTag.innerHTML = navList[i];
 }
 
 console.log(document.body);

@@ -11,7 +11,8 @@ const iconWrapper = document.createElement('div');
 const span = document.createElement('span');
 const image = new Image();
 
-row.setAttribute('class', 'row');
+row.setAttribute('class', 'row active');
+row.setAttribute('id', 'home');
 container.setAttribute('class', 'container');
 heroSection.setAttribute('class', 'hero-section col-12');
 imgWrapper.setAttribute('class', 'imgWrapper');

@@ -8,6 +8,18 @@
   z-index: 1;
 }
 
+.row {
+  display: none;
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.active {
+  display: block;
+}
+
 .row-1 {
   height: 10vh;
   position: fixed;
@@ -27,12 +39,12 @@
   width: 100%;
 }
 .navbar-brand {
-  width: 25%;
+  width: 50%;
 }
 
 .navigation {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 img {
@@ -41,10 +53,14 @@ img {
   padding: 10px 0 0 30px;
 }
 .navbar-collapse {
-  width: 70%;
+  width: 50%;
+}
+.navbar-collapse a {
+  text-decoration: none;
+  color: #fff;
 }
 
-ul li {
+.row-1 li {
   color: #fff;
   list-style: none;
   text-decoration: none;
@@ -310,6 +326,7 @@ h2 {
   grid-auto-rows: 550px;
   grid-gap: 50px;
   padding: 50px 70px 20px 70px;
+  margin-top: 50px;
 }
 .reservationImage1 {
   background: url('./components/reservationComponent/img-02.jpg') no-repeat;

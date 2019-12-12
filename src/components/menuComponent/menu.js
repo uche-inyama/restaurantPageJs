@@ -19,6 +19,7 @@ let header5 = document.createElement('h5');
 let paragraph = document.createElement('p');
 
 row.setAttribute('class', 'row menu-section-row');
+row.setAttribute('id', 'menu');
 container.setAttribute('class', 'container');
 menuSection.setAttribute('class', 'menu-section');
 gallery.setAttribute('class', 'gallery');

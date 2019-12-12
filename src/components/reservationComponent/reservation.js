@@ -32,6 +32,7 @@ const placeholder = [
 ];
 
 row.setAttribute('class', 'row');
+row.setAttribute('id', 'reservation');
 container.setAttribute('class', 'container');
 reservationBooking.setAttribute('class', 'reservationBooking');
 reservationImage1.setAttribute('class', 'reservationImage1');

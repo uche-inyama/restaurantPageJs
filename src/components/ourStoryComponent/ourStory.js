@@ -20,6 +20,7 @@ const header2 = document.createElement('h2');
 const paragraph = document.createElement('p');
 
 row.setAttribute('class', 'row');
+row.setAttribute('id', 'about');
 container.setAttribute('class', 'container');
 ourStorySection.setAttribute('class', 'ourStory-section');
 spicesLeftWrapper.setAttribute('class', 'spices-left-wrapper');

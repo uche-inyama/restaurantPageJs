@@ -143,6 +143,18 @@ table {
   z-index: 1;
 }
 
+.row {
+  display: none;
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.active {
+  display: block;
+}
+
 .row-1 {
   height: 10vh;
   position: fixed;
@@ -162,12 +174,12 @@ table {
   width: 100%;
 }
 .navbar-brand {
-  width: 25%;
+  width: 50%;
 }
 
 .navigation {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 img {
@@ -176,10 +188,14 @@ img {
   padding: 10px 0 0 30px;
 }
 .navbar-collapse {
-  width: 70%;
+  width: 50%;
+}
+.navbar-collapse a {
+  text-decoration: none;
+  color: #fff;
 }
 
-ul li {
+.row-1 li {
   color: #fff;
   list-style: none;
   text-decoration: none;
@@ -445,6 +461,7 @@ h2 {
   grid-auto-rows: 550px;
   grid-gap: 50px;
   padding: 50px 70px 20px 70px;
+  margin-top: 50px;
 }
 .reservationImage1 {
   background: url(./2927623cc35f03f2f286532c802db6fa.jpg) no-repeat;
@@ -645,7 +662,7 @@ footer .button {
 @font-face {
   font-family: 'FontAwesome';
   src: url(./fonts/fontawesome-webfont.eot);
-  src: url(./fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format('embedded-opentype'), url(./fonts/fontawesome-webfont.woff2) format('woff2'), url(./fonts/fontawesome-webfont.woff) format('woff'), url(./fonts/fontawesome-webfont.ttf) format('truetype'), url(./03adbd34ee27f15a98e30c2e99d924c0.svg#fontawesomeregular) format('svg');
+  src: url(./fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format('embedded-opentype'), url(./fonts/fontawesome-webfont.woff2) format('woff2'), url(./fonts/fontawesome-webfont.woff) format('woff'), url(./fonts/fontawesome-webfont.ttf) format('truetype'), url(./912ec66d7572ff821749319396470bde.svg#fontawesomeregular) format('svg');
   font-weight: normal;
   font-style: normal;
 }

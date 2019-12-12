@@ -12,6 +12,7 @@ const unorderedList = document.createElement('ul');
 const unorderedList1 = document.createElement('ul');
 
 footer.setAttribute('class', 'row');
+footer.setAttribute('id', 'contact');
 container.setAttribute('class', 'container');
 footerDiv.setAttribute('class', 'footer');
 center.setAttribute('class', 'center');

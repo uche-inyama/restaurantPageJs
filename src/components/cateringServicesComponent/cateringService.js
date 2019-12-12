@@ -11,6 +11,7 @@ const paragragh = document.createElement('p');
 const categories = document.createElement('ul');
 
 row.setAttribute('class', 'row');
+row.setAttribute('id', 'catering');
 container.setAttribute('class', 'container');
 cateringService.setAttribute('class', 'catering-services');
 socialEventImage.setAttribute('class', 'socialEventsImage');
