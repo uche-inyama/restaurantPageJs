@@ -2,19 +2,19 @@ import './components/externalStyleSheet.js';
 import './reset.css';
 import './index.css';
 import './components/headerComponent/logo.png';
-import './components/heroComponent/bkg-img4.jpg';
+import './components/homeComponent/bkg-img4.jpg';
 import './components/menuComponent/gallery-1s.jpg';
 import './components/menuComponent/gallery-2s.jpg';
 import './components/menuComponent/gallery-3s.jpg';
 import './components/menuComponent/gallery-4s.jpg';
 
 import './components/headerComponent/nav.js';
-import './components/heroComponent/hero.js';
-import './components/ourStoryComponent/ourStory.js';
+import './components/homeComponent/hero.js';
+import './components/aboutComponent/ourStory.js';
 import './components/menuComponent/menu.js';
 import './components/cateringServicesComponent/cateringService.js';
 import './components/reservationComponent/reservation.js';
-import './components/footerComponent/footer.js';
+import './components/contactComponent/footer.js';
 import 'font-awesome/css/font-awesome.css';
 
 const app = {
