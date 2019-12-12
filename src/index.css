@@ -76,7 +76,7 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: url('./components/heroComponent/bkg-img4.jpg') no-repeat;
+  background: url('./components/homeComponent/bkg-img4.jpg') no-repeat;
   height: 100vh;
 }
 
@@ -116,7 +116,7 @@ img {
   padding: 0;
 }
 .potrariat {
-  background: url('./components/ourStoryComponent/bkg-img2.png') no-repeat;
+  background: url('./components/aboutComponent/bkg-img2.png') no-repeat;
   background-position: 80% 50%;
   width: auto;
   height: 100%;
@@ -502,7 +502,7 @@ footer .button {
   justify-content: space-between;
 }
 .logo {
-  background: url(./components/footerComponent/logo.png) no-repeat;
+  background: url(./components/contactComponent/logo.png) no-repeat;
   width: 200px;
   height: 150px;
 }
