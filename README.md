@@ -12,7 +12,7 @@ learned ones.
 
   - adding attributes
   - Removing DOM nodes
-  - implementing single application using the DOM apis.
+  - implementing single page application using the DOM apis.
 
 #### To have access to the project, follow these steps
 
