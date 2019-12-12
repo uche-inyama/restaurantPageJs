@@ -46,6 +46,3 @@ for (var i = 0; i < navList.length; i++) {
   linkTag.setAttribute('href', '#');
   linkTag.innerHTML = navList[i];
 }
-
-console.log(document.body);
-console.log(document.head);
