@@ -25,6 +25,8 @@ learned ones, these includes:
 3. Open the application on your browser, by going to folder where is stored on your machine, access the html file,
    and open the file with your choice browser, or if you'r using VS code, at the bottom of the editor, there's `Go Live`,
    click on it, it will give you a list of files and folders click on dist, tadaah!
+   
+Here is a [live link]( https://uche-inyama.github.io/restaurantPageJs/) to the project.
 
 #### Technologies used includes:
 
