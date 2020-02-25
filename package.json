@@ -5,10 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack -w"
+    "build": "webpack -w",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Inyama, Uchechukwu Henry",
   "license": "ISC",
+  "homepage": "https://uche-inyama.github.io",
   "devDependencies": {
     "css-loader": "^3.2.1",
     "eslint": "^6.1.0",
@@ -34,6 +36,7 @@
     }
   },
   "dependencies": {
-    "font-awesome": "^4.7.0"
+    "font-awesome": "^4.7.0",
+    "gh-pages": "^2.2.0"
   }
 }
