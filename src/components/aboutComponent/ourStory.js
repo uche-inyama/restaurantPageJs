@@ -2,7 +2,6 @@ import ImageLeft from './spices-left.png';
 import ImageRight from './spices-right.png';
 
 const main = document.querySelector('main');
-console.log(main);
 const row = document.createElement('div');
 const container = document.createElement('div');
 const ourStorySection = document.createElement('div');

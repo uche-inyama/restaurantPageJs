@@ -21,11 +21,6 @@ const app = {
   pages: [],
   show: new Event('show'),
   init: function() {
-    app.pages = document.querySelectorAll('.row');
-    app.pages.forEach(pg => {
-      pg.addEventListener('show', app.pageShown);
-    });
-
     document.querySelectorAll('.nav-Link').forEach(link => {
       link.addEventListener('click', app.nav);
     });
@@ -41,9 +36,6 @@ const app = {
     document.querySelector('.active').classList.remove('active');
     document.getElementById(currentPage).classList.add('active');
     history.pushState({}, currentPage, `#${currentPage}`);
-  },
-  pageShown: function(evt) {
-    console.log('Page', evt.target.id, 'just shown');
   },
   poppin: function(evt) {
     let hash = location.hash.replace('#', '');
