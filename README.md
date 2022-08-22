@@ -1,5 +1,8 @@
 ## RestaurantPage
 
+![royalPlate](https://user-images.githubusercontent.com/46329537/185924041-74601465-f813-41e0-a4ea-b0a9fb552f11.png)
+
+
 Restaurant Page, is **`a single page application`** implemented with vanilla JavaScript.
 In the course of implementing the project, I learn't the following concepts and reinenforced already
 learned ones, these includes:
