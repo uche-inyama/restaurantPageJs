@@ -41,7 +41,7 @@ On your terminal:
 
 ## Live Demo
 
-[live link]( https://uche-inyama.github.io/restaurantPageJs/)
+[Live Demo link]( https://uche-inyama.github.io/restaurantPageJs/)
 
 ## Author
 
